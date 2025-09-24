@@ -23,6 +23,22 @@ body {
   font-style: normal;
 }
 
+/* Main message */
+.headline {
+  font-size: clamp(36px, 12vw, 140px);  /* BIG: responsive, but capped */
+  font-weight: 700;
+  line-height: 1;
+  margin: 0 0 0.4em 0;
+}
+
+/* Tagline (much smaller) */
+.tagline {
+  font-size: clamp(14px, 4vw, 28px);    /* smaller and subtle */
+  font-weight: 400;
+  opacity: 0.8;                          /* softer look */
+  margin: 0;
+}
+
 /* Big, bold display type */
 .counter {
   font-size: clamp(36px, 10vw, 120px);
