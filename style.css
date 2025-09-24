@@ -9,7 +9,7 @@
 
 /* 2) Black screen, white type */
 :root {
-  --pad: 5vw; /* breathing room on mobile */
+  --pad: 7vw; /* breathing room on mobile */
 }
 
 * { box-sizing: border-box; }
