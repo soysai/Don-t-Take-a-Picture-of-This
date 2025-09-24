@@ -1,10 +1,24 @@
-<html>
-<main id="container">
-  <div>
-    <h4>YOU'RE THE <span id="pageviews-count"></span></span><sup id="pageviews-suffix"></sup>
-    PERSON THAT DIDN'T LISTEN. </h4>
-    <p>Live in the moment :)</p>
-  </div>
-<script src="script.js"></script>
-</main>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Counter</title>
+
+    <!-- LINK YOUR CSS (put styles.css next to index.html) -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main id="container" class="counter">
+      <h4>
+        YOU'RE THE
+        <span id="pageviews-count"></span><sup id="pageviews-suffix"></sup>
+        PERSON THAT DIDN'T LISTEN.
+      </h4>
+      <p>Live in the moment :)</p>
+    </main>
+
+    <!-- JS (defer so it runs after DOM is parsed) -->
+    <script src="./script.js" defer></script>
+  </body>
 </html>
