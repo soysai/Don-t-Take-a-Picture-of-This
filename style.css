@@ -1,10 +1,4 @@
 /* 1) Load the custom font */
-@font-face{
-  font-family: "Grudblitter";
-  src: url("./Assets/grudblitter-font/Grudblitter-K7Ly.ttf") format("truetype");
-  font-display: swap;
-}
-
 /* 2) Black screen, white type */
 :root {
   --pad: 7vw; /* breathing room on mobile */
@@ -40,6 +34,9 @@ body {
   font-weight: 700; /* some display fonts ignore weight; keep for fallback */
   max-width: 20ch;  /* keep lines punchy */
   word-break: break-word;
+   font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 /* 4) Make the ordinal suffix look nice */
@@ -49,6 +46,9 @@ body {
   vertical-align: 0.45em; /* raise it a bit */
   margin-left: 0.05em;
   font-weight: 700;
+   font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 /* Optional accent for the number */
