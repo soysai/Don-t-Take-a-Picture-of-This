@@ -25,7 +25,6 @@ body {
 
 /* Main message */
 .headline {
-text-align: center;
   font-size: clamp(36px, 12vw, 140px);  /* BIG: responsive, but capped */
   font-weight: 700;
   line-height: 1;
