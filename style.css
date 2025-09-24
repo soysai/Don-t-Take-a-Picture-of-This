@@ -1,10 +1,8 @@
 /* 1) Load the custom font */
-@font-face {
+@font-face{
   font-family: "Grudblitter";
-  src: url("/assets/Grudblitter.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap; /* show fallback until font loads */
+  src: url("./Assets/grudblitter-font/Grudblitter-K7Ly.ttf") format("truetype");
+  font-display: swap;
 }
 
 /* 2) Black screen, white type */
