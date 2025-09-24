@@ -27,8 +27,9 @@ body {
   justify-content: flex-start;
   padding: var(--pad);
   /* Use custom font with sensible fallbacks */
-  font-family: "Grudblitter", system-ui, -apple-system, "Segoe UI",
-               Roboto, "Helvetica Neue", Arial, sans-serif;
+ font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 /* 3) Big, bold display type */
