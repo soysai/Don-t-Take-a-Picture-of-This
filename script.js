@@ -1,5 +1,4 @@
 const pageviewsCount = document.getElementById('pageviews-count');
-const visitsCount = document.getElementById('visits-count');
 
 if (sessionStorage.getItem('visit') === null) {
   // New visit and pageview
@@ -15,7 +14,6 @@ function updateCounter(type) {
     .then(res => res.json())
     .then(data => {
       pageviewsCount.textContent = data.pageviews; // Display pageviews to user
-      visitsCount.textContent = data.visits; // Display visits to user
     })
 
 }
