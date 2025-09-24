@@ -1,7 +1,5 @@
-/* 1) Load the custom font */
-/* 2) Black screen, white type */
 :root {
-  --pad: 7vw; /* breathing room on mobile */
+  --pad: 7vw;
 }
 
 * { box-sizing: border-box; }
@@ -15,41 +13,35 @@ html, body {
 body {
   background: #000;
   color: #fff;
-  min-height: 100svh; /* safe on mobile address bars */
+  min-height: 100svh;
   display: flex;
-  align-items: flex-start; /* start at top-left */
+  align-items: flex-start;
   justify-content: flex-start;
   padding: var(--pad);
-  /* Use custom font with sensible fallbacks */
- font-family: "Jersey 10", sans-serif;
+  font-family: "Jersey 10", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
-/* 3) Big, bold display type */
+/* Big, bold display type */
 .counter {
-  font-size: clamp(36px, 10vw, 120px); /* scales nicely on phones */
+  font-size: clamp(36px, 10vw, 120px);
   line-height: 0.95;
   letter-spacing: 0.01em;
-  font-weight: 700; /* some display fonts ignore weight; keep for fallback */
-  max-width: 20ch;  /* keep lines punchy */
+  font-weight: 700;
+  max-width: 20ch;
   word-break: break-word;
-   font-family: "Jersey 10", sans-serif;
-  font-weight: 400;
-  font-style: normal;
 }
 
-/* 4) Make the ordinal suffix look nice */
+/* Ordinal suffix */
 .counter sup {
   font-size: 0.45em;
   line-height: 0;
-  vertical-align: 0.45em; /* raise it a bit */
+  vertical-align: 0.45em;
   margin-left: 0.05em;
   font-weight: 700;
-   font-family: "Jersey 10", sans-serif;
-  font-weight: 400;
-  font-style: normal;
 }
 
-/* Optional accent for the number */
+/* Optional accent */
 #pageviews-count { text-decoration-thickness: 0.08em; }
+
